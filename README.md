@@ -26,7 +26,9 @@ This application allows users to generate strong passwords, store credentials lo
 ---
 
 ## 📂 Project Structure
+```
 ├── main.py
 ├── data.json
 ├── logo.png
 └── README.md
+```
