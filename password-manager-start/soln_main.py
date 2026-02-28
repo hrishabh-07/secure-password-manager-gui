@@ -59,11 +59,7 @@ def find_password():
                     message=f"Email for the website {w}: {r[i]['email']}\nPassword: {r[i]['password']}"
                 )
                 break
-                 #   The above break statement is only triggered when the condition is True, otherwise it isnt triggered
-                    #This is how a break statement works inside an if clause
-        # The reason why we are using the else clause outside the for loop and not inside is because,The break statement is only triggered when the cond is TRUE
-        # So if you had putten an else clause inside the for loop, then while itterating, if any itteration condition was False then the else clause would be triggered
-        # This would lead to multiple executioning of the else clause
+               
         else:
             messagebox.showinfo(title="Oops",message="No such website exists in the file.")
 
